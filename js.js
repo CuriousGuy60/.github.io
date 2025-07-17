@@ -184,6 +184,7 @@ function change(a) {
             }
             const showppot = document.getElementById('show+showpot');
             showppot.innerHTML = document.getElementById('show').innerHTML+document.getElementById('showpot').innerHTML;
+            console.log(showppot.innerHTML);
             const box = document.getElementById('ansbox');
             box.classList.remove("fadeIn");
             box.offsetWidth;
