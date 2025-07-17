@@ -182,7 +182,8 @@ function change(a) {
             } else {
                 document.getElementById("showpot").innerHTML += "窄";
             }
-            document.getElementById("ansbox").hidden = false;
+            const showppot = document.getElementById('show+showpot');
+            showppot.innerHTML = document.getElementById('show').innerHTML+document.getElementById('showpot').innerHTML;
             const box = document.getElementById('ansbox');
             box.classList.remove("fadeIn");
             box.offsetWidth;
